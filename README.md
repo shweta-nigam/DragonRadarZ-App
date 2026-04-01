@@ -80,13 +80,13 @@ src/
 
  ```
 ## Home Screen Highlights
-Background video using Expo AV
-Animated content falling from top
-Center logo with pulse animation
-Parallax scrolling for depth effect
-Horizontal character list
-Explore Planets button
-Gradient fade at the bottom to match theme
+- Background video using Expo AV
+- Animated content falling from top
+- Center logo with pulse animation
+- Parallax scrolling for depth effect
+- Horizontal character list
+- Explore Planets button
+- Gradient fade at the bottom to match theme
 
 ## API Used
 
