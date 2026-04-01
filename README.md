@@ -37,5 +37,65 @@ DragonRadarZ is a React Native mobile application built with Expo that showcases
 git clone <your-repo-url>
 cd <project-folder>
 ```
+2. Install dependencies:
+```
+npm install
 
+```
+3. Start the development server:
+```
+npx expo start
+```
+4. Run on device:
+- Press a for Android emulator
+- Press i for iOS simulator
+- Scan QR code using Expo Go
+  
+## Project Structure
+```
+src/
+ ├── components/
+ │    ├── CharacterCard.tsx
+ │    ├── ErrorView.tsx
+ │    ├── Loader.tsx
+ │    ├── PlanetCard.tsx
+ │
+ ├── screens/
+ │    ├── HomeScreen.tsx
+ │    ├── PlanetScreen.tsx
+ │    ├── CharacterListScreen.tsx
+ │    ├── CharacterDetailScreen.tsx
+ │    ├── FavoritesScreen.tsx
+ │    ├── PlanetDetailScreen.tsx
+ │
+ ├── hooks/
+ │    ├── useCharacters.ts
+ │
+ ├── services/
+ │    ├── api.ts
+ │
+ ├── types/
+ │    ├── navigation.ts
+ │    ├── character.ts
+
+ ```
+## Home Screen Highlights
+Background video using Expo AV
+Animated content falling from top
+Center logo with pulse animation
+Parallax scrolling for depth effect
+Horizontal character list
+Explore Planets button
+Gradient fade at the bottom to match theme
+
+## API Used
+
+Dragon Ball API
+https://web.dragonball-api.com/
+
+## Author
+Developed as part of a custom anime-themed mobile application project.
+
+## License
+This project is intended for educational and personal use.
 
