@@ -9,7 +9,6 @@ import HomeScreen from "../screens/HomeScreen";
 import CharacterListScreen from "../screens/CharacterListScreen";
 import PlanetScreen from "../screens/PlanetScreen";
 import FavoriteScreen from "../screens/FavoritesScreen";
-import SettingsScreen from "../screens/SettingsScreen";
 import CharacterDetailScreen from "../screens/CharacterDetailScreen";
 import PlanetDetailScreen from "../screens/PlanetDetailScreen";
 
@@ -56,14 +55,6 @@ function FavoriteStack() {
   );
 }
 
-/* Settings Stack */
-function SettingsStack() {
-  return (
-    <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="SettingsMain" component={SettingsScreen} />
-    </Stack.Navigator>
-  );
-}
 
 /* Icon helper */
 const getIcon = (routeName: string) => {
